@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - conda-forge::python=3.10
+  - conda-forge::nbgitpuller=1.1.1
   - pytorch::torchaudio=2.0.0
   - pytorch::pytorch=2.0.0
   - pytorch::torchvision=0.15.0
