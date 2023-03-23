@@ -1,0 +1,10 @@
+name: pytorch-environment
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - conda-forge::python=3.10
+  - pytorch::torchaudio=2.0.0
+  - pytorch::pytorch=2.0.0
+  - pytorch::torchvision=0.15.0
+  - pytorch::cpuonly=2.0
